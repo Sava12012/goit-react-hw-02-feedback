@@ -6,6 +6,9 @@ export const Votes = styled.ul`
   display: flex;
   flex-direction: column;
   gap: 10px;
+  padding: 20px;
+  box-shadow: var(--main-shadow);
+  background-color: var(--box-statistics);
 `;
 
 export const VotesItem = styled.li`
@@ -17,12 +20,12 @@ export const VotesItem = styled.li`
 
 export const Name = styled.span`
   text-align: left;
-  font-size: 16px;
+  font-size: 24px;
   color: var(--secondary);
 `;
 
 export const Rate = styled.span`
   text-align: left;
-  font-size: 16px;
+  font-size: 24px;
   color: var(--accent);
 `;
