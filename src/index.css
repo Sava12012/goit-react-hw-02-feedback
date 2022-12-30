@@ -29,7 +29,7 @@ img {
 }
 
 :root {
-  --accent: #8c01ef;
+  --accent: rgb(1, 84, 74);
   --primary: #282828;
   --secondary: #858585;
   --box: rgba(128, 203, 196, 0.6);
